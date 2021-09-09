@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: red;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+#tasks {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 26px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 26px 30px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+}
+
+.task {
+  background-color: #ffffff;
+  height: 40px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#input {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid #000;
+}
+
+#btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#btn:hover {
+  color: red;
+  background-color: black;
+}
+
+.delete {
+  padding: 10px 5px;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
